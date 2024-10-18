@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .blocoMine{
+            width: 100px;
+            height: 100px;
+            background-color: burlywood;
+            border-top: solid 15px green;
+        }
+        .blocoPedra{
+            width: 100px;
+            height: 100px;
+            background-image: url(https://i.pinimg.com/originals/63/9e/e3/639ee336abefc1a6a1f40b97db9b409f.jpg);
+            background-size: 100% 100%;
+        }
+        .blocoBandeira{
+            width: 100px;
+            height: 100px;
+            background-image: url(https://img.freepik.com/vetores-premium/bandeira-do-brasil-tremulando-em-mastro-metalico_261737-328.jpg);
+            background-size: 100% 100%;
+        }
+        #container{
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            width: 100vw;
+            height: 100vh;
+            flex-wrap: wrap;
+            display: flex;
+            flex-direction: column;
+        }
+        .andar{
+            width: 100vw;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+           
+           
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="andar1" class="andar"></div>
+        <div id="andar2" class="andar"></div>
+        <div id="andar3" class="andar"></div>
+        <div id="andar4" class="andar"></div>
+        <div id="andar5" class="andar"></div>
+        <div id="andar6" class="andar"></div>
+        <div id="andar7" class="andar"></div>
+    </div>
+    
+</body>
+    <script src="eventoTecla.js"></script>
+</html>
